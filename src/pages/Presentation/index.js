@@ -1,6 +1,3 @@
-// Presentation.js
-
-// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -37,11 +34,7 @@ function Presentation() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Scale Up With Gbenga Adebiyi
           </Typography>
-          <Button
-            color="warning"
-            variant="contained"
-            href="https://linktr.ee/debiyi"
-          >
+          <Button color="warning" variant="contained" href="https://linktr.ee/debiyi">
             Join My Class
           </Button>
         </Toolbar>

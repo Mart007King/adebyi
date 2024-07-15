@@ -36,7 +36,7 @@ function DesignBlocks() {
     <Grid container spacing={3} sx={{ mb: 10 }} key={title}>
       <Grid item xs={12} lg={3}>
         <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
-          <MKTypography variant="h3" fontWeight="bold" mb={1}>
+          <MKTypography variant="h3" fontWeight="bold" mb={1} color="light">
             {title}
           </MKTypography>
           <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
@@ -49,7 +49,15 @@ function DesignBlocks() {
           {items.map(({ image, name, count, route, pro }) => (
             <Grid item xs={12} md={4} sx={{ mb: 2 }} key={name}>
               <Link to={pro ? "/" : route}>
-                <ExampleCard image={image} name={name} count={count} pro={pro} />
+                <ExampleCard
+                  image={image}
+                  name={name}
+                  count={count}
+                  pro={pro}
+                  sx={{
+                    color: "white",
+                  }}
+                />
               </Link>
             </Grid>
           ))}
@@ -73,16 +81,15 @@ function DesignBlocks() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="Infinite combinations"
+            badgeContent="Packages"
             container
             sx={{ mb: 2 }}
           />
-          <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+          <MKTypography variant="h2" fontWeight="bold" color="white">
+            Available Package to kick-start your Freelancing Journey
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We have created multiple options for you to put together and customise into pixel
-            perfect pages.
+            We have created multiple options for you. Whether you are a novice or expert freelancer.
           </MKTypography>
         </Grid>
       </Container>

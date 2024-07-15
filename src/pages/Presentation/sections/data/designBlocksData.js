@@ -13,247 +13,80 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
+import courseImg from "../../../../assets/images/course.png";
+import letterImg from "../../../../assets/images/gade-bg.png";
+import free1 from "../../../../assets/images/new-free1.png";
+import free2 from "../../../../assets/images/new-free2.png";
+import search from "../../../../assets/images/search.png";
+import frebee from "../../../../assets/images/20free.png";
+import prop from "../../../../assets/images/read-prop.png";
+import diy from "../../../../assets/images/DIY.png";
+
+const getClients =
+  "https://medium.com/@gbengabiyi/how-to-make-clients-read-your-proposals-on-upwork-bd031e212f16";
 
 export default [
   {
-    title: "Design Blocks",
-    description: "A selection of 45 page sections that fit perfectly in any combination",
+    title: "My Freelancing Courses",
+    description: "This course addresses Lack Of Clients as a Freelancers and how to get Clients. ",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
-        name: "Page Headers",
-        count: 10,
-        route: "/sections/page-sections/page-headers",
-      },
-      {
-        image: `${imagesPrefix}/features.jpg`,
-        name: "Features",
-        count: 14,
-        route: "/sections/page-sections/features",
-      },
-      {
-        image: `${imagesPrefix}/pricing.jpg`,
-        name: "Pricing",
-        count: 8,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/faq.jpg`,
-        name: "FAQ",
-        count: 1,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/blogs.jpg`,
-        name: "Blog Posts",
-        count: 11,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/testimonials.jpg`,
-        name: "Testimonials",
-        count: 11,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/teams.jpg`,
-        name: "Teams",
-        count: 6,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/stats.jpg`,
-        name: "Stats",
-        count: 3,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/call-to-action.jpg`,
-        name: "Call to Actions",
-        count: 8,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/projects.jpg`,
-        name: "Applications",
-        count: 6,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/logo-area.jpg`,
-        name: "Logo Areas",
-        count: 4,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/footers.jpg`,
-        name: "Footers",
-        count: 10,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/general-cards.jpg`,
-        name: "General Cards",
-        count: 9,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/content-sections.jpg`,
-        name: "Content Sections",
-        count: 8,
-        pro: true,
+        image: `${courseImg}`,
+        name: "Buy FREELANCER CLIENT MAGNET 2.0",
+        route: "https://gbengabiyi.selar.co/clientmagnet?currency=NGN",
       },
     ],
   },
   {
-    title: "Navigation",
-    description: "30+ components that will help go through the pages",
+    title: "Join My Newsletter",
+    description: "Get freelancing tips straight to your inbox",
     items: [
       {
-        image: `${imagesPrefix}/navbars.jpg`,
-        name: "Navbars",
-        count: 4,
-        route: "/sections/navigation/navbars",
-      },
-      {
-        image: `${imagesPrefix}/nav-tabs.jpg`,
-        name: "Nav Tabs",
-        count: 2,
-        route: "/sections/navigation/nav-tabs",
-      },
-      {
-        image: `${imagesPrefix}/pagination.jpg`,
-        name: "Pagination",
-        count: 3,
-        route: "/sections/navigation/pagination",
+        image: `${letterImg}`,
+        name: "Sign up for my newsletter",
+        route: "https://unique-trailblazer-5940.ck.page/217efd7c2b",
       },
     ],
   },
   {
-    title: "Input Areas",
-    description: "50+ elements that you need for text manipulation and insertion",
+    title: "I am NEW to FREELANCING",
+    description: "If you are new to Freenlancing then this Package is for you",
     items: [
       {
-        image: `${imagesPrefix}/newsletters.jpg`,
-        name: "Newsletters",
-        count: 6,
-        pro: true,
+        image: `${free1}`,
+        name: "How to be a Freelancer",
+        route: "https://medium.com/@gbengabiyi/how-to-be-a-freelancer-6440d2f4813c",
       },
       {
-        image: `${imagesPrefix}/contact-sections.jpg`,
-        name: "Contact Sections",
-        count: 8,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/forms.jpg`,
-        name: "Forms",
-        count: 3,
-        route: "/sections/input-areas/forms",
-      },
-      {
-        image: `${imagesPrefix}/inputs.jpg`,
-        name: "Inputs",
-        count: 6,
-        route: "/sections/input-areas/inputs",
+        image: `${free2}`,
+        name: "Introduction to Freelancing (VIDEO)",
+        route: "https://www.youtube.com/watch?v=8rWSbHyIOI4",
       },
     ],
   },
   {
-    title: "Attention Catchers",
-    description: "20+ Fully coded components that popup from different places of the screen",
+    title: "Free Freelancing Resources",
+    description: "How to search for Freelancing GIGS, Free Proposal templates and more...",
     items: [
       {
-        image: `${imagesPrefix}/alerts.jpg`,
-        name: "Alerts",
-        count: 4,
-        route: "/sections/attention-catchers/alerts",
+        image: `${search}`,
+        name: "How to SEARCH for FREELANCING GIGS and REMOTE JOBS like a Pro",
+        route: "https://www.youtube.com/watch?v=B4gdZeBgbA8",
       },
       {
-        image: `${imagesPrefix}/toasts.jpg`,
-        name: "Notifications",
-        count: 3,
-        pro: true,
+        image: `${frebee}`,
+        name: "20 Free Proposal templates",
+        route: "https://unique-trailblazer-5940.ck.page/131f73aba9",
       },
       {
-        image: `${imagesPrefix}/popovers.jpg`,
-        name: "Tooltips & Popovers",
-        count: 2,
-        route: "/sections/attention-catchers/tooltips-popovers",
+        image: `${prop}`,
+        name: "How To Make CLIENTS Read Your Proposals on UPWORK",
+        route: `${getClients}`,
       },
       {
-        image: `${imagesPrefix}/modals.jpg`,
-        name: "Modals",
-        count: 5,
-        route: "/sections/attention-catchers/modals",
-      },
-    ],
-  },
-  {
-    title: "Elements",
-    description: "80+ carefully crafted small elements that come with multiple colors and shapes",
-    items: [
-      {
-        image: `${imagesPrefix}/buttons.jpg`,
-        name: "Buttons",
-        count: 6,
-        route: "/sections/elements/buttons",
-      },
-      {
-        image: `${imagesPrefix}/avatars.jpg`,
-        name: "Avatars",
-        count: 2,
-        route: "/sections/elements/avatars",
-      },
-      {
-        image: `${imagesPrefix}/dropdowns.jpg`,
-        name: "Dropdowns",
-        count: 2,
-        route: "/sections/elements/dropdowns",
-      },
-      {
-        image: `${imagesPrefix}/switch.jpg`,
-        name: "Toggles",
-        count: 2,
-        route: "/sections/elements/toggles",
-      },
-      {
-        image: `${imagesPrefix}/social-buttons.jpg`,
-        name: "Social Buttons",
-        count: 2,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/breadcrumbs.jpg`,
-        name: "Breadcrumbs",
-        count: 1,
-        route: "/sections/elements/breadcrumbs",
-      },
-      {
-        image: `${imagesPrefix}/badges.jpg`,
-        name: "Badges",
-        count: 3,
-        route: "/sections/elements/badges",
-      },
-      {
-        image: `${imagesPrefix}/progress.jpg`,
-        name: "Progress Bars",
-        count: 4,
-        route: "/sections/elements/progress-bars",
-      },
-      {
-        image: `${imagesPrefix}/tables.jpg`,
-        name: "Tables",
-        count: 3,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/typography.jpg`,
-        name: "Typography",
-        count: 2,
-        route: "/sections/elements/typography",
+        image: `${diy}`,
+        name: "Do It Yourself - FREELANCING STEP BY STEP GUIDE (FREE VIDEOS + EBOOKS)",
+        route: "https://unique-trailblazer-5940.ck.page/7f43f63fc8",
       },
     ],
   },
